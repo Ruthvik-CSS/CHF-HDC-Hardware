@@ -1,0 +1,12 @@
+{
+    "DESIGN_NAME": "chf_top",
+    "VERILOG_FILES": [
+        "dir::chf_top.v",
+        "dir::wavelet_ca4.v",
+        "dir::rf_classifier.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 5000,
+    "FP_CORE_UTIL": 30,
+    "PL_TARGET_DENSITY_PCT": 35
+}

@@ -1,0 +1,13 @@
+{
+    "DESIGN_NAME": "ensemble_top",
+    "VERILOG_FILES": [
+        "dir::hdc_core.v",
+        "dir::level_finder.v",
+        "dir::basis_and_class_rom.v",
+        "dir::ensemble_top.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 5000,
+    "FP_CORE_UTIL": 30,
+    "PL_TARGET_DENSITY_PCT": 35
+}
