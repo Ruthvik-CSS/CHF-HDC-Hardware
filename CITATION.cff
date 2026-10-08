@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this hardware architecture or software model, please cite our submitted paper as below."
+authors:
+- family-names: "Dhokariya"
+  given-names: "Krisha Atul"
+- family-names: "Ruthvik"
+  given-names: "Chunduri Surya Sankara"
+- family-names: "Rao"
+  given-names: "Madhav"
+title: "A HDC-Based Low-Power VLSI Architecture for Congestive Heart Failure Detection in Wearable Devices"
+version: 1.0.0
+date-released: "2026-10-09"
+url: "https://github.com/Ruthvik-CSS/CHF-HDC-Hardware"
+preferred-citation:
+  type: unpublished
+  authors:
+  - family-names: "Dhokariya"
+    given-names: "Krisha Atul"
+  - family-names: "Ruthvik"
+    given-names: "Chunduri Surya Sankara"
+  - family-names: "Rao"
+    given-names: "Madhav"
+  title: "A HDC-Based Low-Power VLSI Architecture for Congestive Heart Failure Detection in Wearable Devices"
+  note: "Submitted to the IEEE International Symposium on Circuits and Systems (ISCAS) 2027"
+  year: 2027
