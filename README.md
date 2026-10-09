@@ -5,9 +5,9 @@ Low-Power VLSI Architecture for Congestive Heart Failure Detection in
 Wearable Devices"* (Dhokariya, Ruthvik, Rao - IIIT Bangalore, submitted to
 ISCAS 2027).
 
-This project replaces the Random-Forest classifier of a prior closed-form
-wavelet-feature CHF detector (Bhardwaj et al., IEEE TVLSI 2026) with a
-multiplier-free Hyperdimensional Computing (HDC) classifier, implemented
+This project replaces the Random Forest classifier of a prior closed form
+wavelet feature CHF detector (Bhardwaj et al., IEEE TVLSI 2026) with a
+multiplier free Hyperdimensional Computing (HDC) classifier, implemented
 end-to-end in synthesizable RTL and verified against a Python
 software model. An RF re-implementation is also provided for a matched,
 apples-to-apples power/accuracy comparison (both synthesized on sky130
@@ -105,7 +105,7 @@ result-valid.
 > must use the *same* `SCALE`. The HDC pipeline's CA4 output range is
 > ~±127, so `SCALE=128` is used (not the RF side's `SCALE=1024`, which
 > would overflow the 16-bit signed range and silently invert comparisons
-> via two's-complement wraparound — this was the original cause of the
+> via two's-complement wraparound, this was the original cause of the
 > "RTL always predicts the same class" bug). The RF pipeline
 > (`train_and_export.py`, `export_ecg_hex.py`) uses `SCALE=1024` (Q6.10)
 > and is self-consistent on its own side; don't mix ROMs/test vectors
@@ -150,8 +150,8 @@ DRC/LVS) used to populate Table II of the paper.
 
 Lead-I ECG from PhysioNet **BIDMC-CHF** (`chfdb`) and **MIT-BIH Normal
 Sinus Rhythm** (`nsrdb`), resampled to 250 Hz. Subject-oriented split:
-- **DS1 (train):** chf01–chf10 (10 CHF subjects) + 12 NSR subjects
-- **DS2 (test):** chf11–chf15 (5 CHF subjects) + 6 NSR subjects
+- **DS1 (train):** chf01-chf10 (10 CHF subjects) + 12 NSR subjects
+- **DS2 (test):** chf11-chf15 (5 CHF subjects) + 6 NSR subjects
 
 Noise-robustness evaluation additionally uses the MIT-BIH Noise Stress
 Test Database (BW, MA, EM) plus a synthetic Gaussian condition.
