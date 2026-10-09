@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this hardware architecture or software model, please cite our submitted paper as below."
 authors:
 - family-names: "Dhokariya"
-  given-names: "Krisha Atul"
+  given-names: "Krisha"
 - family-names: "Ruthvik"
   given-names: "Chunduri Surya Sankara"
 - family-names: "Rao"
@@ -15,7 +15,7 @@ preferred-citation:
   type: unpublished
   authors:
   - family-names: "Dhokariya"
-    given-names: "Krisha Atul"
+    given-names: "Krisha"
   - family-names: "Ruthvik"
     given-names: "Chunduri Surya Sankara"
   - family-names: "Rao"
