@@ -2,7 +2,7 @@
 
 RTL and software implementation accompanying the paper *"A HDC-Based
 Low-Power VLSI Architecture for Congestive Heart Failure Detection in
-Wearable Devices"* (Dhokariya, Ruthvik, Rao - IIIT Bangalore, submitted to
+Wearable Devices"* (Dhokariya, Chunduri, Rao - IIIT Bangalore, submitted to
 ISCAS 2027).
 
 This project replaces the Random Forest classifier of a prior closed form
