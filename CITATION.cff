@@ -16,8 +16,8 @@ preferred-citation:
   authors:
   - family-names: "Dhokariya"
     given-names: "Krisha"
-  - family-names: "Ruthvik"
-    given-names: "Chunduri Surya Sankara"
+  - family-names: "Chunduri" 
+    given-names: "Surya Sankara Ruthvik"
   - family-names: "Rao"
     given-names: "Madhav"
   title: "A HDC-Based Low-Power VLSI Architecture for Congestive Heart Failure Detection in Wearable Devices"
