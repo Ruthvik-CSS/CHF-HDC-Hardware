@@ -2,13 +2,13 @@
 
 RTL and software implementation accompanying the paper *"A HDC-Based
 Low-Power VLSI Architecture for Congestive Heart Failure Detection in
-Wearable Devices"* (Dhokariya, Ruthvik, Rao — IIIT Bangalore, submitted to
+Wearable Devices"* (Dhokariya, Ruthvik, Rao - IIIT Bangalore, submitted to
 ISCAS 2027).
 
 This project replaces the Random-Forest classifier of a prior closed-form
 wavelet-feature CHF detector (Bhardwaj et al., IEEE TVLSI 2026) with a
 multiplier-free Hyperdimensional Computing (HDC) classifier, implemented
-end-to-end in synthesizable RTL and verified bit-exactly against a Python
+end-to-end in synthesizable RTL and verified against a Python
 software model. An RF re-implementation is also provided for a matched,
 apples-to-apples power/accuracy comparison (both synthesized on sky130
 130 nm).
@@ -97,7 +97,7 @@ result-valid.
 | `DIM` (D)        | 500   | hypervector dimension |
 | `LEVELS` (L)      | 20    | quantization levels per feature |
 | `N_FEAT`          | 14    | CA4 wavelet coefficients per window |
-| Feature/threshold scale | 128 (Q-format, 16-bit signed) | **not** 1024 — see note below |
+| Feature/threshold scale | 128 (Q-format, 16-bit signed) | **not** 1024 (see note below) |
 | Class hypervector width | 8-bit signed | |
 | Total ROM          | 29,256 bits (~3.57 KB) | position + level + class + threshold |
 
